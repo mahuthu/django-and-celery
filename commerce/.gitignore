@@ -1,0 +1,32 @@
+# Python/Django
+venv/
+.venv/
+env/
+.env/
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+.DS_Store
+staticfiles/
+media/
+local_settings.py
+
+# IDE/Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and Temporary Files
+logs/
+tmp/
+
+# Dependency Management
+Pipfile.lock
+requirements.txt
+
+# Environment-specific .env files
+.env.local
+.env.dev
+.env.prod
